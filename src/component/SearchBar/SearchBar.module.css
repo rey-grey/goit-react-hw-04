@@ -1,0 +1,46 @@
+header {
+    
+    padding: 20px;
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px 14px;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007aff;
+    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+}
+
+button[type="submit"] {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fc1;
+}
