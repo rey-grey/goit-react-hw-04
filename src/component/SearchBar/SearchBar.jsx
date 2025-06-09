@@ -1,7 +1,7 @@
 import { toast, Toaster } from 'react-hot-toast';
 import styles from './SearchBar.module.css'
 
-export const SearchBar = ({ onSubmit }) => {
+const SearchBar = ({ onSubmit }) => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const form = event.target;
@@ -23,7 +23,7 @@ export const SearchBar = ({ onSubmit }) => {
         <>
         <header>
         <form onSubmit={handleSubmit}> 
-          <input
+          <input className={styles.input}
             type="text"
             name="query"
             autoComplete="off"
@@ -37,4 +37,4 @@ export const SearchBar = ({ onSubmit }) => {
 
     )
 }
- 
+export default SearchBar;

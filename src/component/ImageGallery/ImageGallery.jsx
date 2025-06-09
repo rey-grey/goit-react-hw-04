@@ -1,6 +1,6 @@
 import styles from './ImageGallery.module.css';
 
-export const ImageGallery = ({ images, onImageClick }) => {
+const ImageGallery = ({ images, onImageClick }) => {
   return (
     <ul className={styles['image-gallery']}>
       {images.map((image) => {
@@ -17,3 +17,4 @@ export const ImageGallery = ({ images, onImageClick }) => {
     </ul>
   );
 };
+export default ImageGallery;

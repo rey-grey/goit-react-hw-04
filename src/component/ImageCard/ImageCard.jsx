@@ -1,4 +1,4 @@
-export const ImageCard = ({ src, alt, onClick }) => {
+const ImageCard = ({ src, alt, onClick }) => {
   return (
     <div className="image-card" onClick={onClick} style={{ cursor: 'pointer' }}>
       <img
@@ -15,3 +15,4 @@ export const ImageCard = ({ src, alt, onClick }) => {
     </div>
   );
 };
+export default ImageCard;

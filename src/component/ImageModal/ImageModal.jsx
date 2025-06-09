@@ -21,7 +21,7 @@ const customStyles = {
     },
   };
 
-export const ImageModal = ({ isOpen, onClose, src, alt, location }) => {
+const ImageModal = ({ isOpen, onClose, src, alt, location }) => {
     useEffect(() => { 
   }, []);
 
@@ -76,3 +76,4 @@ export const ImageModal = ({ isOpen, onClose, src, alt, location }) => {
     </Modal>
   );
 };
+export default ImageModal;

@@ -1,7 +1,7 @@
 import styles from './LoadMoreBtn.module.css';
 
 
-export const LoadMoreButton = ({ onClick, isLoading }) => {
+const LoadMoreButton = ({ onClick, isLoading }) => {
     return (
       <div className={styles['load-more-wrapper']}>
         <button
@@ -15,6 +15,6 @@ export const LoadMoreButton = ({ onClick, isLoading }) => {
     );
   };
   
-
+export default LoadMoreButton;
 
  

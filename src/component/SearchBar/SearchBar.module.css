@@ -15,7 +15,7 @@ form {
 
 
 
-input[type="text"] {
+.input {
     width: 300px;
     padding: 10px 14px;
     border: 2px solid #d3d3d3;
