@@ -6,7 +6,7 @@ import axios from "axios";
 
 import  SearchBar from './components/SearchBar/SearchBar.jsx';
 import ImageGallery from './components/ImageGallery/ImageGallery.jsx';
-import Loader from './components/Loaders/Loader.jsx';
+import Loader from './components/Loader/Loader.jsx';
 import ErrorMessage from './components/ErrorMessage/ErrorMessage.jsx';
 import LoadMoreButton from './components/LoadMoreBtn/LoadMoreBtn.jsx';
 import ImageModal from './components/ImageModal/ImageModal.jsx';
