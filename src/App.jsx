@@ -4,12 +4,12 @@ import { useState, useEffect } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
 import axios from "axios";
 
-import  SearchBar from './component/SearchBar/SearchBar.jsx';
-import ImageGallery from './component/ImageGallery/ImageGallery.jsx';
-import Loader from './component/Loader/Loader.jsx';
-import ErrorMessage from './component/ErrorMessage/ErrorMessage.jsx';
-import LoadMoreButton from './component/LoadMoreBtn/LoadMoreBtn.jsx';
-import ImageModal from './component/ImageModal/ImageModal.jsx';
+import  SearchBar from './components/SearchBar/SearchBar.jsx';
+import ImageGallery from './components/ImageGallery/ImageGallery.jsx';
+import Loader from './component/Loaders/Loader.jsx';
+import ErrorMessage from './components/ErrorMessage/ErrorMessage.jsx';
+import LoadMoreButton from './components/LoadMoreBtn/LoadMoreBtn.jsx';
+import ImageModal from './components/ImageModal/ImageModal.jsx';
 
 
 axios.defaults.baseURL = 'https://api.unsplash.com/';
